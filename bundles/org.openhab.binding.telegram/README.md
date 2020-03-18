@@ -90,7 +90,7 @@ Thing telegram:telegramBot:Telegram_Bot [ chatIds="< ID >", botToken="< TOKEN >"
 | lastMessageDate                      | DateTime  | The date of the last received message (UTC)                     |
 | lastMessageName                      | String    | The full name of the sender of the last received message        |
 | lastMessageUsername                  | String    | The username of the sender of the last received message         |
-| chatId                               | String    | The id of the chat of the last received meesage                 |
+| chatId                               | String    | The id of the chat of the last received message                 |
 | replyId                              | String    | The id of the reply which was passed to sendTelegram() as replyId argument. This id can be used to have an unambiguous assignment of the users reply to the message which was sent by the bot             |
 
 
